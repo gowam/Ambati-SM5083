@@ -6,7 +6,7 @@ int D,C,B,A,a,b,c,d,e,f,g;
 //Code released under GNU GPL.  Free to use for anything.
 void disp_7447(int D, int C, int B, int A)
 {
-  a=(A&&!B&&!C&&!D) || (!A&&C&&);
+  a=(A&&!B&&!C&&!D) || (!A&&C);
   b=(!A&&B&&C) || (A&&!B&&C);
   c=(!A&&B&&!C);
   d=(!A&&!B&&C) || (A&&!B&&!C) || (A&&B&&C);
